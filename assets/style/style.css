@@ -27,6 +27,8 @@
   background-image: url("../imagens/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
   
  }
 
@@ -34,6 +36,10 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
+ }
+
+ .container__caixa {
+  margin: 0 6em;
  }
 
  .container__titulo{
